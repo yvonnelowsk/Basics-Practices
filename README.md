@@ -1,2 +1,2 @@
-# Basics-Practices
+# Basics Practices
 Basic coding practices
