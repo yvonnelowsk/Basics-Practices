@@ -1,2 +1,2 @@
 # Basics Practices
-Basic coding practices
+Basic coding practices for python
