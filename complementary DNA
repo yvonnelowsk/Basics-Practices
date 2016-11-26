@@ -9,6 +9,7 @@ DNA_strand ("ATTGC") # return "TAACG"
 
 DNA_strand ("GTAT") # return "CATA"
 
+Solution:
 
 def DNA_strand(dna):
     dict = {'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G'}
