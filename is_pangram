@@ -5,6 +5,8 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 
 
 
+Solution:
+
 import string
 
 def is_pangram(s):
