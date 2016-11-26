@@ -1,0 +1,26 @@
+This kata is the first of a sequence of four about "Squared Strings".
+
+You are given a string of n lines, each substring being n characters long: For example:
+
+s = "abcd\nefgh\nijkl\nmnop"
+
+We will study some transformations of this square of strings.
+
+Horizontal mirror: hor_mirror (or horMirror or hor-mirror)
+hor_mirror(s) => "mnop\nijkl\nefgh\nabcd"
+
+
+horizontal mirror   
+abcd --> mnop 
+efgh     ijkl 
+ijkl     efgh 
+mnop     abcd
+
+Examples:
+
+s = "abcd\nefgh\nijkl\nmnop"
+oper(hor_mirror, s) => "mnop\nijkl\nefgh\nabcd"
+
+
+def hor_mirror(strng):
+    return '\n'.join(strng.split('\n')[::-1])
