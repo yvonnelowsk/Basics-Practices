@@ -1,0 +1,12 @@
+x Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+
+
+Solution:
+
+def find_short(s):
+    list = s.split()
+    list.sort(key = lambda x: len(x))
+    return len(list[0])
